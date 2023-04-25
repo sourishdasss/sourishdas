@@ -13,10 +13,10 @@ export default function Header({}: Props) {
                             hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> About Me </button>
         <button className="px-6 py-2 border border-[#242424] rounded-full 
                             uppercase text-sm tracking-widest text-gray-500 transition-all
-                            hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> About Me </button>
+                            hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> Experience </button>
         <button className="px-6 py-2 border border-[#242424] rounded-full 
                             uppercase text-sm tracking-widest text-gray-500 transition-all
-                            hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> About Me </button>
+                            hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> Projects </button>
       </div>
 
       <div className="flex flex-row items-center text-gray-300 cursor-pointer">
