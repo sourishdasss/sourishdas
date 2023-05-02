@@ -8,17 +8,17 @@ type Props = {}
 
 export default function Hero({}: Props) {
      const [text, count] = useTypewriter({
-          words: ["Hi, my name is Sourish"],
+          words: ["Hi, I'm Sourish"],
           loop: true, 
-          delaySpeed: 2000,
+          delaySpeed: 3500,
      });
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
      <BackgroundShapes />
      <div className='z-20'>
-          <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px]">Software Engineer</h2>
-     <h1 className="text-5xl font-semibold px-10">
+          <h2 className="text-md font-semibold uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
+     <h1 className="text-6xl font-semibold px-15">
           <span>{text}</span>
           <Cursor cursorColor="#F7AB0A" />
      </h1>
@@ -68,6 +68,8 @@ export default function Hero({}: Props) {
           GET IN TOUCH
         </p>
       </div>
+
+      
     </div>
   )
 }
