@@ -29,13 +29,13 @@ export default function About({}: Props) {
      */}
           
 
-          <div className='space-y-0 px-30 md:px-20'>
+          <div className='px-10 md:px-20'>
                <p className='items-center'>
-                    Hi, my name is Sourish Das. I am a Second Year Student at the University of Waterloo majoring in Computer Science. 
+                    Hi, my name is Sourish Das. I am a <span>Second Year Student</span> at the University of Waterloo majoring in Computer Science. 
                </p>
                     
                     
-               <p className='items-center'>
+               <p className='max-w-[600px] items-center'>
                     I am currently interning at a YC 21 startup, named Baraka Financial limited. FILL IN
                     ...........................................................................................................................
                     ...........................................................................................................................

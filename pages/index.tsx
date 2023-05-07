@@ -38,7 +38,6 @@ export default function Home() {
         <Work_Experience />
       </section>
 
-
       {/* Projects */}
       <section id="projects" className="snap-center">
         <Projects />
