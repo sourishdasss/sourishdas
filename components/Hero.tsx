@@ -15,13 +15,18 @@ export default function Hero({}: Props) {
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-     <BackgroundShapes />
-     <div className='z-20'>
-          <h2 className="text-md font-semibold uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
-     <h1 className="text-6xl font-semibold px-15">
+    
+      <BackgroundShapes />
+    
+      <div className='z-20'>
+        <h2 className="text-md font-semibold uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software Engineer
+        </h2>
+
+        <h1 className="text-6xl text-[#3792c0] font-semibold px-15 mt-4">
           <span>{text}</span>
           <Cursor cursorColor="#F7AB0A" />
-     </h1>
+        </h1>
      </div>
 
      <motion.div 
@@ -39,7 +44,6 @@ export default function Hero({}: Props) {
           duration: 2
         }}
         className="flex flex-row items-center">
-        {/* Social Icons */}
           <SocialIcon 
             url="https://github.com/sourishdas07" 
             fgColor="gray" 
@@ -55,21 +59,15 @@ export default function Hero({}: Props) {
             fgColor="gray" 
             bgColor="transparent"
           />
-      </motion.div>
-
-        <div className="flex flex-row items-center text-gray-300 cursor-pointer">
-        <SocialIcon 
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray" 
-          bgColor="transparent"
-        />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
-          GET IN TOUCH
-        </p>
-      </div>
-
-      
+          <a href="mailto:sourish10das@gmail.com">
+            <SocialIcon 
+              className="cursor-pointer"
+              network="email"
+              fgColor="grey" 
+              bgColor="transparent"
+            />
+          </a>
+      </motion.div>      
     </div>
   )
 }

@@ -13,19 +13,19 @@ export default function Header({}: Props) {
     <header className="sticky top-5 left-flex z-20 xl:center items-center text-center">
       <div className='pt-5'>
         <Link href="#about">
-          <button className="px-9 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> About Me </button>
+          <button className="px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#3792c0]/40 hover:text-[#3792c0]/80"> About Me </button>
         </Link>
 
         <Link href="#about">
-          <button className="px-9 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> Experience </button>
+          <button className="px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#3792c0]/40 hover:text-[#3792c0]/80"> Experience </button>
         </Link>
 
         <Link href="#about">
-          <button className="px-9 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> Projects </button>
+          <button className="px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#3792c0]/40 hover:text-[#3792c0]/80"> Projects </button>
         </Link>
 
         <Link href="#about">
-          <button className="px-9 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40"> Resume </button>
+          <button className="px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-gray-500 transition-all hover:border-[#3792c0]/40 hover:text-[#3792c0]/80"> Resume </button>
         </Link>
       </div>
 

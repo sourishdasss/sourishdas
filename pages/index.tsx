@@ -7,12 +7,13 @@ import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Work_Experience from '@/components/Work_Experience';
 import Projects from '@/components/Projects';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0"> {/* Change the Colour in the Future*/}
+    <div className="bg-[rgb(25,25,25)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
       <Head>
         <title>Sourish Das</title>
       </Head>
@@ -34,14 +35,11 @@ export default function Home() {
         <Experience />
       </section>
 
-      <section id="experience" className="snap-center">
-        <Work_Experience />
-      </section>
-
       {/* Projects */}
-      <section id="projects" className="snap-center">
+      <section id="projects" className="snap-start">
         <Projects />
       </section>
+
 
       {/* Contact Me */}
       

@@ -5,7 +5,7 @@ type Props = {}
 
 function Orbital({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200'>
+    <article className='flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-6 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200'>
           <motion.img 
                initial={{
                     y:-100,
@@ -19,22 +19,22 @@ function Orbital({}: Props) {
                alt=""
           />
 
-          <div className='px-0 md:px-10'>
-               <h4 className='text-4xl font-light'>Full Stack Developer</h4>
-               <p className='font-div text-2xl mt-1'>UW Orbital</p>
+                <div className='px-0 md:px-10'>
+           <h4 className='text-4xl font-light'>Full Stack Developer</h4>
+           <p className='font-div text-2xl mt-1'>UW Orbital</p>
 
                <div className='flex space-x-2 my-2'>
-                    <img 
-                         className='h-10 w-10 rounded-full'
-                         src=''
-                         alt=''
-                    />
-                    {/* Tech Used*/}
+               <img 
+                     className='h-10 w-10 rounded-full'
+                     src=''
+                     alt=''
+                />
+               {/* Tech Used*/}
                </div>
 
                <p>......Duration.......</p>
 
-               <ul className='list-disc space-y-4 ml-5 text-lg'>
+               <ul className='list-disc space-y-2 ml-5 text-lg'>
                     <li>Point</li>
                     <li>Point</li>
                     <li>Point</li>
