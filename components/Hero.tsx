@@ -59,14 +59,11 @@ export default function Hero({}: Props) {
             fgColor="gray" 
             bgColor="transparent"
           />
-          <a href="mailto:sourish10das@gmail.com">
-            <SocialIcon 
-              className="cursor-pointer"
-              network="email"
-              fgColor="grey" 
-              bgColor="transparent"
-            />
-          </a>
+          <SocialIcon 
+            url="mailto:sourish10das@gmail.com" 
+            fgColor="gray" 
+            bgColor="transparent"
+          />
       </motion.div>      
     </div>
   )
