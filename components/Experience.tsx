@@ -1,8 +1,8 @@
 import { MotionConfig } from 'framer-motion'
 import React from 'react'
 import { motion } from "framer-motion"
-import Orbital from '@/components/Orbital';
-import Baraka from '@/components/Baraka';
+import Orbital from '@/components/work_experience/Orbital';
+import Baraka from '@/components/work_experience/Baraka';
 
 type Props = {}
 
