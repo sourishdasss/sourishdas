@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 type Props = {}
 
-function Orbital({}: Props) {
+function WatStreet({}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[700px] snap-center bg-[#292929] p-6 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200'>
           <motion.img 
@@ -44,4 +44,4 @@ function Orbital({}: Props) {
   )
 }
 
-export default Orbital
+export default WatStreet
