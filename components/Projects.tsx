@@ -1,56 +1,24 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
+import { motion } from "framer-motion"
+import BullForecast from './projects/BullForecast'
+
 
 type Props = {}
 
 function Projects({}: Props) {
   return (
-    
-  <div className='max-w-contentContainer mx-auto px-4' style={{ height: '120vh' }}>
-  <div className='w-full flex flex-col items-center mt-36'>
-    <h3 className='uppercase tracking-widest text-gray-500 text-2xl'>My Projects</h3>
-  </div>
+    <motion.div className='flex flex-col relative h-screen top-10 md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+  <h3 className='absolute top-24 uppercase tracking-[10px] text-gray-500 text-2xl mt-8'>Projects</h3>
 
-  <div className='top-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-9 mt-32 px-[7rem]'>
-        <ProjectCard 
-          title="TESTING"
-          des="TESTING.........................................................."
-          listItem={["React.js", "Tailwind CSS", "Stripe"]}
-          link="https://www.linkedin.com/feed/"
-        />
-        <ProjectCard 
-          title="TESTING"
-          des="TESTING.........................................................."
-          listItem={["React.js", "Tailwind CSS", "Stripe"]}
-          link="https://www.linkedin.com/feed/"
-        />
-        <ProjectCard 
-          title="TESTING"
-          des="TESTING.........................................................."
-          listItem={["React.js", "Tailwind CSS", "Stripe"]}
-          link="https://www.linkedin.com/feed/"
-        />
-        <ProjectCard 
-          title="TESTING"
-          des="TESTING.........................................................."
-          listItem={["React.js", "Tailwind CSS", "Stripe"]}
-          link="https://www.linkedin.com/feed/"
-        />
-        <ProjectCard 
-          title="TESTING"
-          des="TESTING.........................................................."
-          listItem={["React.js", "Tailwind CSS", "Stripe"]}
-          link="https://www.linkedin.com/feed/"
-        />
-        <ProjectCard 
-          title="TESTING"
-          des="TESTING.........................................................."
-          listItem={["React.js", "Tailwind CSS", "Stripe"]}
-          link="https://www.linkedin.com/feed/"
-        />
-      </div>
-    </div>
-  )
-}
+  <div className="w-full flex space-x-5 overflow-x-auto p-10 snap-x snap-mandatory mt-8">
+    <BullForecast/>
+    <BullForecast/>
+    <BullForecast/>
+  </div>
+</motion.div>
+
+
+  );
+};
 
 export default Projects

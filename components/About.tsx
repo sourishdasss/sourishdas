@@ -27,7 +27,7 @@ export default function About({}: Props) {
                          <br /><br />
                     <span className="text-center mx-[210px]">Feel free to contact me to get in touch!</span>
                </p>
-
+               
                <a href="mailto:sourish10das@gmail.com">
                     <button className="mt-2 px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-[#3792c0] transition-all hover:border-[#3792c0]/40 hover:text-[#3792c0]/80 blue-glow">
                          Say Hello!
