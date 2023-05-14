@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       {/* Work Experience */}
-      <section id="experience" className="snap-center" style={{ height: "600px" }}>
+      <section id="experience" className="snap-center">
         <WorkExperience />
       </section>
 
