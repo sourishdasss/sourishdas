@@ -22,7 +22,7 @@ function BullForecast({}: Props) {
     />
 
     <div className='px-0 md:px-10'>
-      <h4 className='text-4xl font-light'>Bull Forecast</h4>
+      <h4 className='text-4xl font-light text-gray-500'>Bull Forecast</h4>
       <p className='font-div text-2xl mt-1'>UW Orbital</p>
 
       <div className='flex space-x-2 my-2'>
