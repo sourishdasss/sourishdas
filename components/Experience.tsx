@@ -43,7 +43,7 @@ const WorkExperience = () => {
       <h3 className='absolute top-24 uppercase tracking-[10px] text-gray-300 text-2xl mt-8'>Experience</h3>
 
       <div className='w-full flex flex-col md:flex-row gap-16 justify-center md:justify-start'>
-        <ul className='md:w-32 flex flex-col ml-32'>
+        <ul className='md:w-40 flex flex-col ml-40'>
           <li
             onClick={handleBaraka}
             style={{ fontSize: '1.1rem' }}

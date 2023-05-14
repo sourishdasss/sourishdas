@@ -11,10 +11,11 @@ const Baraka = () => {
   transition={{ delay: 0.1 }}
   className='w-full'
 >
-  <h3 className='flex gap-1 font-medium text-gray-300 text-xl tracking-wide font-robotoRegular'>
-    Software Engineer 
-    <span className='text-[#3792c0] uppercase tracking-wide'>@ Baraka</span>
-  </h3>
+  <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
+  Software Engineer 
+  <span className='text-[#3792c0] uppercase tracking-wide'>@ Baraka</span>
+</h3>
+
   <p className='text-sm mt-2 uppercase font-medium text-[#3792c0] font-robotoRegular mb-2'>May 2023 - Present</p>
 
   <div className='flex mt-4 space-x-6 my-2 font-robotoRegular'>
