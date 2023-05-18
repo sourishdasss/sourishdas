@@ -3,6 +3,7 @@ import Baraka from './experience/Baraka';
 import WatStreet from './experience/WatStreet';
 import Orbital from './experience/Orbital';
 import WARG from './experience/WARG';
+import { MotionConfig, motion } from 'framer-motion'
 
 const WorkExperience = () => {
      const [workBaraka, setWorkBaraka] = useState(true);
@@ -39,7 +40,20 @@ const WorkExperience = () => {
   };
 
   return (
-    <div className='flex flex-col relative h-screen top-10 md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <motion.div 
+      // initial={{
+      //   opacity: 0,
+      //   x: -100, // Initial position outside the viewport on the left side
+      // }}
+      // animate={{
+      //   opacity: 1,
+      //   x: 0, // Move to the current position
+      // }}
+      // transition={{
+      //   duration: 1, // Adjust the duration as needed
+      // }}
+    
+      className='flex flex-col relative h-screen top-10 md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
       <h3 className='absolute top-24 uppercase tracking-[10px] text-gray-300 text-2xl mt-8'>Experience</h3>
 
       <div className='w-full flex flex-col md:flex-row gap-16 justify-center md:justify-start'>
@@ -78,7 +92,7 @@ const WorkExperience = () => {
     {workOrbital && <Orbital />}
     {workWARG && <WARG />}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

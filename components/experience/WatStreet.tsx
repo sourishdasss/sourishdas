@@ -8,32 +8,26 @@ type Props = {}
 function WatStreet({}: Props) {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.1 }}
-      className='w-full'
-    >
-  
-      <h3 className='flex gap-1 font-medium text-gray-300 text-xl tracking-wide font-robotoRegular'>
-        Quantitative Developer
-        <span className='text-[#3792c0] uppercase tracking-wide'>@ WatStreet</span>
-      </h3>
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.1 }}
+  className='w-full'
+>
+  <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
+    Quantitative Developer
+    <span className='text-[#3792c0] uppercase tracking-wide'>@ WatStreet</span>
+  </h3>
 
-      <p className='text-sm mt-2 uppercase font-medium text-[#3792c0] font-robotoRegular mb-2'>May 2023 - Present</p>
+ <p className='text-base mt-3 uppercase font-medium text-[#3792c0] font-robotoRegular'>May 2023 - Present</p>
 
-      <div className='flex mt-4 space-x-6 my-2 font-robotoRegular'>
-        <img 
-          className='h-8 w-8'
-          src='https://cdn-icons-png.flaticon.com/512/5968/5968381.png'
-          alt=''
-        />
-        <img 
-          className='h-8 w-8 rounded-full'
-          src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png'
-          alt=''
-        />
-        <img 
-      className='h-8 w-5'
+  <div className='flex mt-8 space-x-6 my-2 font-robotoRegular'>
+    <img 
+      className='h-8 w-8 rounded-full'
+      src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png'
+      alt=''
+    />
+    <img 
+      className='h-9 w-5'
       src='https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png'
       alt=''
     />
@@ -43,13 +37,8 @@ function WatStreet({}: Props) {
       alt=''
     />
     <img 
-      className='h-8 w-8'
-      src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/1200px-NestJS.svg.png'
-      alt=''
-    />
-    <img 
-      className='h-8 w-8'
-      src='https://static-00.iconduck.com/assets.00/file-type-angular-icon-1907x2048-tobdkjt1.png'
+      className='h-9 w-9 rounded-full'
+      src='https://seeklogo.com/images/P/pandas-logo-776F6D45BB-seeklogo.com.png'
       alt=''
     />
   </div>
@@ -58,13 +47,13 @@ function WatStreet({}: Props) {
     <li className='text-base flex gap-2 text-gray-500 font-robotoRegular'>
       <BsArrowReturnRight className='text-[#3792c0]'/>
       <span>
-        Building a dividend yield calculator using 
+        Refactoring legacy APIs and Sub-Systems to help move towards Microservices
       </span>
     </li>
     <li className='text-base flex gap-2 text-gray-500'>
       <BsArrowReturnRight className='text-[#3792c0]'/>
       <span>
-        testing for right now, fill in later, with proper writing
+         
       </span>
     </li>
     <li className='text-base flex gap-2 text-gray-500'>

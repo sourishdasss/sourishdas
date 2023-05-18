@@ -1,6 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import BullForecast from './projects/BullForecast'
+import RepMe from './projects/RepMe';
+import NetflixClone from './projects/NetflixClone';
+import StockCorrelation from './projects/StockCorrelation';
 
 
 type Props = {}
@@ -12,8 +15,9 @@ function Projects({}: Props) {
 
   <div className="w-full flex space-x-5 overflow-x-auto p-10 snap-x snap-mandatory mt-8">
     <BullForecast/>
-    <BullForecast/>
-    <BullForecast/>
+    <RepMe/>
+    <NetflixClone/>
+    <StockCorrelation/>
   </div>
 </motion.div>
 

@@ -8,19 +8,18 @@ type Props = {}
 function WARG({}: Props) {
      return (
           <motion.div
-               initial={{ opacity: 0 }}
-               animate={{ opacity: 1 }}
-               transition={{ delay: 0.1 }}
-               className='w-full'
-          >
-               <h3 className='flex gap-1 font-medium text-gray-300 text-xl tracking-wide font-robotoRegular'>
-                    Software Engineer 
-                    <span className='text-[#3792c0] uppercase tracking-wide'>@ WARG</span>
-               </h3>
-               
-               <p className='text-sm mt-2 uppercase font-medium text-[#3792c0] font-robotoRegular mb-2'>September 2022 - May 2023</p>
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.1 }}
+  className='w-full'
+>
+  <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
+    Software Engineer 
+    <span className='text-[#3792c0] uppercase tracking-wide'>@ Warg</span>
+  </h3>
 
-  <div className='flex mt-4 space-x-6 my-2 font-robotoRegular'>
+ <p className='text-base mt-3 uppercase font-medium text-[#3792c0] font-robotoRegular'>September 2022 - May 2023</p>
+  <div className='flex mt-8 space-x-6 my-2 font-robotoRegular'>
     <img 
       className='h-8 w-8'
       src='https://cdn-icons-png.flaticon.com/512/5968/5968381.png'

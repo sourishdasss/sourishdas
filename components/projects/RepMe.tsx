@@ -6,9 +6,9 @@ import {TbFolderFilled} from "react-icons/tb";
 
 type Props = {}
 
-function BullForecast({}: Props) {
+function RepMe({}: Props) {
   return (
-    <div className="mt-12">
+     <div className="mt-12">
   <article className="flex flex-col rounded-lg space-y-4 flex-shrink-0 w-[250px] md:w-[350px] xl:w-[450px] snap-center bg-[#363636] p-6 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 glow-outline" style={{ margin: '1.5rem 1.5rem 1.5rem 0' }}>
 
   <div className="flex items-center ml-10">
@@ -62,9 +62,7 @@ function BullForecast({}: Props) {
 </div>
 
 
-
-
   );
 }
 
-export default BullForecast
+export default RepMe
