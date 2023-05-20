@@ -23,7 +23,7 @@ export default function Header({}: Props) {
           <button className="px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-[#3792c0] transition-all hover:border-gray-300/40 hover:text-gray-300/80"> Projects </button>
         </Link>
 
-        <Link href="/resume/resume_1B.pdf" target='_blank'>
+        <Link href="/resume/External-7.pdf" target='_blank'>
           <button className="px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-[#3792c0] transition-all hover:border-gray-300/40 hover:text-gray-300/80"> Resume </button>
         </Link>
       </div>
