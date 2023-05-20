@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 import { TbFolderFilled } from 'react-icons/tb';
 import { SocialIcon } from 'react-social-icons';
 

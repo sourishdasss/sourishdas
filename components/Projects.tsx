@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import BullForecast from './projects/BullForecast'
 import RepMe from './projects/RepMe';
 import NetflixClone from './projects/NetflixClone';
-import StockCorrelation from './projects/StockCorrelation';
+// import StockCorrelation from './projects/StockCorrelation';
 import Invst from './projects/Invst';
 
 

@@ -3,7 +3,7 @@ import Baraka from './experience/Baraka';
 import WatStreet from './experience/WatStreet';
 import Orbital from './experience/Orbital';
 import WARG from './experience/WARG';
-import { MotionConfig, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const WorkExperience = () => {
      const [workBaraka, setWorkBaraka] = useState(true);

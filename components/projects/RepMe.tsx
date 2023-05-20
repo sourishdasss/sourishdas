@@ -1,6 +1,6 @@
 import React from 'react'
-import { motion } from "framer-motion"
-import { HiChevronRight } from "react-icons/hi";
+// import { motion } from "framer-motion"
+// import { HiChevronRight } from "react-icons/hi";
 import { SocialIcon } from 'react-social-icons';
 import {TbFolderFilled} from "react-icons/tb";
 

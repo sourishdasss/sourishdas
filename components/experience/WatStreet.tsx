@@ -1,8 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import { transition } from '@angular/animations'
+// import { transition } from '@angular/animations'
 import {BsArrowReturnRight} from 'react-icons/bs';
-import {SiPandas} from 'react-icons/si';
 
 type Props = {}
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { MotionConfig, motion } from 'framer-motion'
+// import { MotionConfig, motion } from 'framer-motion'
 
 type Props = {}
 

@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import { SocialIcon } from 'react-social-icons';
-import { motion } from "framer-motion"
-import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import BackgroundShapes from '@/components/BackgroundShapes';
+import React from 'react'
+// import { SocialIcon } from 'react-social-icons';
+// import { motion } from "framer-motion"
+// import { Cursor, useTypewriter } from 'react-simple-typewriter'
+// import BackgroundShapes from '@/components/BackgroundShapes';
 import Link from 'next/link';
 
 type Props = {}
