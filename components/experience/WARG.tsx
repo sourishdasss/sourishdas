@@ -44,13 +44,13 @@ function WARG({}: Props) {
   <li className='text-base flex gap-2 text-gray-500'>
     <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
     <span>
-      Implemented effective processing of videos during the drone’s flight to identify objects in it’s surroundings
+      Implemented effective processing of videos during the drone&apos;s flight to identify objects in it&apos;s surroundings
     </span>
   </li>
   <li className='text-base flex gap-2 text-gray-500'>
     <BsArrowReturnRight className='text-[rgb(25,25,25)]' style={{ fontSize: '1rem' }} />
     <span className='text-[rgb(25,25,25)]'>
-      Implementing new components for the company's web application
+      Implementing new components for the company&apos;s web application
     </span>
   </li>
 </ul>
