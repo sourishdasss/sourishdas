@@ -1,8 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import { transition } from '@angular/animations'
 import {BsArrowReturnRight} from 'react-icons/bs';
-import {FaReact} from 'react-icons/fa';
 
 const Orbital = () => {
   return (
