@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import { transition } from '@angular/animations'
 import {BsArrowReturnRight} from 'react-icons/bs';
 
 const Baraka = () => {
