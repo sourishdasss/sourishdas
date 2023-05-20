@@ -26,7 +26,7 @@ const Baraka = () => {
       alt=''
     />
     <img 
-      className='h-8 w-8 rounded-full'
+      className='h-9 w-9 rounded-full'
       src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png'
       alt=''
     />
@@ -52,26 +52,29 @@ const Baraka = () => {
     />
   </div>
 
+
   <ul className='mt-8 flex flex-col gap-4'>
-    <li className='text-base flex gap-2 text-gray-500 font-robotoRegular'>
-      <BsArrowReturnRight className='text-[#3792c0]'/>
-      <span>
-        Refactoring legacy APIs and Sub-Systems to help move towards Microservices
-      </span>
-    </li>
-    <li className='text-base flex gap-2 text-gray-500'>
-      <BsArrowReturnRight className='text-[#3792c0]'/>
-      <span>
-         
-      </span>
-    </li>
-    <li className='text-base flex gap-2 text-gray-500'>
-      <BsArrowReturnRight className='text-[#3792c0]'/>
-      <span>
-        testing for right now, fill in later, with proper writing
-      </span>
-    </li>
-  </ul>
+  <li className='text-base flex gap-2 text-gray-500'>
+    <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
+    <span>
+      Refactoring legacy APIs and sub-systems to help the company move towards microservices 
+    </span>
+  </li>
+  <li className='text-base flex gap-2 text-gray-500'>
+    <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
+    <span>
+      Designing schemas, writing efficient queries, and optimizing database performance using
+      <span></span>
+    </span>
+  </li>
+  <li className='text-base flex gap-2 text-gray-500'>
+    <BsArrowReturnRight className='text-[rgb(25,25,25)]' style={{ fontSize: '1rem' }} />
+    <span className='text-[rgb(25,25,25)]'>
+      Implementing new components for the company's web application
+    </span>
+  </li>
+</ul>
+
 </motion.div>
 
 

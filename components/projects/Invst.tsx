@@ -1,10 +1,12 @@
 import React from 'react'
-import { TbFolderFilled } from 'react-icons/tb';
+import { motion } from "framer-motion"
+import { HiChevronRight } from "react-icons/hi";
 import { SocialIcon } from 'react-social-icons';
+import {TbFolderFilled} from "react-icons/tb";
 
 type Props = {}
 
-function StockCorrelation({}: Props) {
+function Invst({}: Props) {
   return (
     <div className="mt-12">
   <article className="flex flex-col rounded-lg space-y-4 flex-shrink-0 w-[200px] md:w-[300px] xl:w-[400px] h-[250px] md:h-[350px] xl:h-[450px] snap-center bg-[#363636] p-6 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 glow-outline" style={{ margin: '1.5rem 1.5rem 1.5rem 0' }}>
@@ -24,12 +26,12 @@ function StockCorrelation({}: Props) {
   </div>
 
   <div className="px-0 md:px-10 text-center">
-    <h4 className="text-2xl text-[#3792c0] font-semibold hover:tw-shadow-glow">Bull Forecast</h4>
+    <h4 className="text-2xl text-[#3792c0] font-semibold hover:tw-shadow-glow">INV$T</h4>
 
 
     <p className="mt-2 mb-2 text-gray-300">
-      Bull Forecast is a web app that uses Additive Regression to provide real-time price updates and predictions about 
-      all publicly traded stocks in the NYSE and NASDAQ and over 50 cryptocurrencies in a user-friendly manner. 
+      INV$T is a service allows the user to preview real-time price changes in their created portfolio and sends users an email notification if a specific stock in the portfolio reaches a certain
+      target price, or a likely possibility of providing a certain return
     </p>
 
    
@@ -65,4 +67,4 @@ function StockCorrelation({}: Props) {
   );
 }
 
-export default StockCorrelation
+export default Invst

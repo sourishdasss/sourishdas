@@ -8,7 +8,7 @@ type Props = {}
 function NetflixClone({}: Props) {
   return (
     <div className="mt-12">
-  <article className="flex flex-col rounded-lg space-y-4 flex-shrink-0 w-[250px] md:w-[350px] xl:w-[450px] snap-center bg-[#363636] p-6 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 glow-outline" style={{ margin: '1.5rem 1.5rem 1.5rem 0' }}>
+  <article className="flex flex-col rounded-lg space-y-4 flex-shrink-0 w-[200px] md:w-[300px] xl:w-[400px] h-[250px] md:h-[350px] xl:h-[450px] snap-center bg-[#363636] p-6 hover:opacity-100 opacity-60 cursor-pointer transition-opacity duration-200 glow-outline" style={{ margin: '1.5rem 1.5rem 1.5rem 0' }}>
 
   <div className="flex items-center ml-10">
     <div>
@@ -25,12 +25,12 @@ function NetflixClone({}: Props) {
   </div>
 
   <div className="px-0 md:px-10 text-center">
-    <h4 className="text-2xl text-[#3792c0] font-semibold hover:tw-shadow-glow">Bull Forecast</h4>
+    <h4 className="text-2xl text-[#3792c0] font-semibold hover:tw-shadow-glow">Netflix2.0</h4>
 
 
     <p className="mt-2 mb-2 text-gray-300">
-      Bull Forecast is a web app that uses Additive Regression to provide real-time price updates and predictions about 
-      all publicly traded stocks in the NYSE and NASDAQ and over 50 cryptocurrencies in a user-friendly manner. 
+      Netflix2.0 is a web app that replicates the look and feel of Netflix, by allowing users to log into their 
+      persnalized accounts, and redirecting them to a reliable free-of-charge service to watch their favourite content.
     </p>
 
    
@@ -41,7 +41,7 @@ function NetflixClone({}: Props) {
 
 
     <div className="flex font-light text-center">
-  <p className="font-div text-m mt-4 mb-6 font-thin">Python, Streamlit, Pandas, Matplotlib, Yahoo Finance</p>
+  <p className="font-div text-m mt-4 mb-6 font-thin">React, Firebase DB, Stripe Checkouts, TMDB API</p>
 
 </div>
 
