@@ -1,6 +1,4 @@
 import React from 'react'
-// import { motion } from "framer-motion"
-// import { HiChevronRight } from "react-icons/hi";
 import { SocialIcon } from 'react-social-icons';
 import {TbFolderFilled} from "react-icons/tb";
 
@@ -15,7 +13,7 @@ function RepMe({}: Props) {
           <TbFolderFilled className="text-[#3792c0] h-16 w-12" />
           <div className="ml-auto">
             <SocialIcon 
-              url="https://github.com/sourishdas07" 
+              url="https://github.com/sourishdas07/RepME" 
               fgColor="gray" 
               bgColor="transparent"
             />

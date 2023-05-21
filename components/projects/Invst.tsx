@@ -13,7 +13,7 @@ function Invst({}: Props) {
           <TbFolderFilled className="text-[#3792c0] h-16 w-12" />
           <div className="ml-auto">
             <SocialIcon 
-              url="https://github.com/sourishdas07" 
+              url="https://github.com/sourishdas07/INVST" 
               fgColor="gray" 
               bgColor="transparent"
             />
@@ -52,29 +52,3 @@ function Invst({}: Props) {
 }
 
 export default Invst
-
-// INVST
-{/* <p className="mt-2 mb-2 text-gray-300">
-      INV$T is a service allows the user to preview real-time price changes in their created portfolio and sends users an email notification if a specific stock in the portfolio reaches a certain
-      target price, or a likely possibility of providing a certain return
-    </p> */}
-
-{/* <p className="font-div text-m mt-4 mb-6 font-thin">Python, Streamlit, Pandas, Matplotlib, Yahoo Finance</p> */}
-
-
-// NETFLIX 
-{/* <p className="mt-2 mb-2 text-gray-300">
-      Netflix2.0 is a web app that replicates the look and feel of Netflix, by allowing users to log into their 
-      persnalized accounts, and redirecting them to a reliable free-of-charge service to watch their favourite content.
-    </p> */}
-
-{/* <p className="font-div text-m mt-4 mb-6 font-thin">React, Firebase DB, Stripe Checkouts, TMDB API</p> */}
-
-
-// RepMe
-{/* <p className="mt-2 mb-2 text-gray-300">
-      RepMe is an innovative web app solution that to everyday free weight exercises, by keeping track of the number of reps 
-      the user is performing and logging that number into their history.
-    </p> */}
-
-// <p className="font-div text-m mt-4 mb-6 font-thin">Python, Flask, Pandas, OpenCV, MediaPipe, Matplotlib, Numpy, React</p>

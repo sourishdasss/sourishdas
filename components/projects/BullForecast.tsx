@@ -13,7 +13,7 @@ function BullForecast({}: Props) {
           <TbFolderFilled className="text-[#3792c0] h-16 w-12" />
           <div className="ml-auto">
             <SocialIcon 
-              url="https://github.com/sourishdas07" 
+              url="https://github.com/sourishdas07/Bull-Forecast" 
               fgColor="gray" 
               bgColor="transparent"
             />

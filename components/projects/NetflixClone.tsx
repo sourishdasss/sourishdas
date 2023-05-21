@@ -1,5 +1,4 @@
 import React from 'react'
-// import { motion } from "framer-motion"
 import { TbFolderFilled } from 'react-icons/tb';
 import { SocialIcon } from 'react-social-icons';
 
@@ -14,7 +13,7 @@ function NetflixClone({}: Props) {
           <TbFolderFilled className="text-[#3792c0] h-16 w-12" />
           <div className="ml-auto">
             <SocialIcon 
-              url="https://github.com/sourishdas07" 
+              url="https://github.com/sourishdas07/Netflix2.0" 
               fgColor="gray" 
               bgColor="transparent"
             />
