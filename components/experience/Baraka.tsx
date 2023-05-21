@@ -58,7 +58,7 @@ const Baraka = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Designing schemas, writing efficient queries, and optimizing database performance using
+            Designing schemas, writing efficient queries, and optimizing database performance
           </span>
         </li>
 
