@@ -5,7 +5,7 @@ const Orbital = () => {
   return (
     <div className='w-full'>
       <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
-        Full-Stack Developer 
+        Full Stack Developer 
         <span className='text-[#3792c0] uppercase tracking-wide'>@ Orbital</span>
       </h3>
 
