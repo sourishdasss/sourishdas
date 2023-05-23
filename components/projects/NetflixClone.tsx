@@ -25,7 +25,7 @@ function NetflixClone({}: Props) {
           
           <p className="mt-2 mb-2 text-gray-300">
             Netflix2.0 is a web app that replicates the look and feel of Netflix, by allowing users to log into their 
-            persnalized accounts, and redirecting them to a reliable free-of-charge service to watch their favourite content.
+            persnalized accounts, and browsing through popular content.
           </p>
 
           <div className="flex justify-center">
