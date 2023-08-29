@@ -20,7 +20,7 @@ export default function About({}: Props) {
           <br /><br />
           I have a huge passion for Programming, Mathematics and Finance, and am interested in a wide variety of positions, from Machine Learning, Backend Engineering and Web Development to Quantitative Analysis.
           <br /><br />
-          Currently, I&apos;m a Software Engineer at 
+          For the summer of 2023, I&apos;m a Software Engineer at
           <strong className="text-[#3792c0]"> Baraka, </strong> 
           a Y Combinator backed fintech startup, based in Dubai, UAE.
           <br /><br />
