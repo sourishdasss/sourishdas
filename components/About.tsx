@@ -11,7 +11,7 @@ export default function About({}: Props) {
 
       <div className='px-10 md:px-20 w-[900px] text-center mt-3'>
         <span className="text-gray-500 xl:text-left font-robotoRegular text-md md:text-lg">
-          Hello, my name is Sourish Das! I am sophomore 
+          Hello, my name is Sourish Das! I am a
           <strong className="text-[#3792c0]"> Computer Science </strong>
           student at the 
           <strong className="text-[#3792c0]"> University of Waterloo </strong>
