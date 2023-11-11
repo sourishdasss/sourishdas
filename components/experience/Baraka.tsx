@@ -55,7 +55,7 @@ const Baraka = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Refactored various legacy APIs to help the company move towards microservices
+            Increased total search requests by 17% by implementing a semantic search feature using OpenAI API and Milvus DB
           </span>
         </li>
 
@@ -63,7 +63,7 @@ const Baraka = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Reduced search latency by up to <span className='text-[#3792c0] tracking-wide font-bold'>60%</span> for both standard and semantic search
+            Reduced search latency by up to 60% for both lexical and semantic searches, leveraging Meillisearch and NNS
           </span>
         </li>
 
@@ -71,8 +71,7 @@ const Baraka = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Implemented a cutting-edge semantic search feature to enhance the user experience by tailoring investment opportunities to their creative financial inquiries
-            and boosting total search requests by <span className='text-[#3792c0] tracking-wide font-bold'>17%</span>
+            Built a RESTful API to boost investments in dividend-paying stocks by <span className='text-[#3792c0] tracking-wide font-bold'>17%</span> using TypeScript, NestJS and SQL
           </span>
         </li>
 
@@ -80,17 +79,34 @@ const Baraka = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Built the backend logic, including a RESTFUL API with CRON jobs that update values in the Postgres DB for a new passive
-            income-generating discovery page to boost investments in dividend-paying stocks by <span className='text-[#3792c0] tracking-wide font-bold'>21%</span>
+            Saved 10k dollars/month by developing an ETL pipeline to introduce new financial metrics using Python and SQL
           </span>
         </li>
 
+        {/* Point 5 */}
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Monitored logs to swiftly resolve production issues and optimized S3 image uploads in <span className='text-[#3792c0] tracking-wide font-bold'>AWS</span>
+            Implemented a microservice that detects fraudulent trades amongst 25k+ accounts, using Java, Springboot and EC2
           </span>
         </li>
+
+        {/* Point 6 */}
+        <li className='text-base flex gap-2 text-gray-500'>
+          <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
+          <span>
+            Utilized parallelization and caching in TypeScript to achieve an enhancement of +35% in API request response times
+          </span>
+        </li>
+
+        {/* Point 7 */}
+        <li className='text-base flex gap-2 text-gray-500'>
+          <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
+          <span>
+            Optimized data storage and retrieval mechanisms by integrating AWS S3 services, reducing data fetch time by 30%
+          </span>
+        </li>
+
       </ul>
     </div>
   )

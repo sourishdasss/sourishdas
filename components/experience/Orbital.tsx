@@ -44,7 +44,7 @@ const Orbital = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]'/>
           <span>
-            Developed a login form to authorize users and fetch their data before sending requests to the satellite 
+            Optimized satellite request handling by 20%, by creating a MySQL database managing 500+ records of telemetry data
           </span>
         </li>
 
@@ -52,7 +52,7 @@ const Orbital = () => {
         <li className='text-base flex gap-2 text-gray-500 font-robotoRegular'>
           <BsArrowReturnRight className='text-[#3792c0]'/>
           <span>
-            Designed a homepage for the ARO Website to allow users to send information to our satellite
+            Created an ARO Request page with React & Firebase to reduce server-side incoming & outgoing response times by 40%
           </span>
         </li>
 
@@ -60,7 +60,7 @@ const Orbital = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]'/>
           <span>
-            Implemented a connection from the Mission Control Website to a FirebaseDB
+            Refactored the satellite’s user authentication and data retrieval, to reduce latency by 35% and handle 500+ requests/hr
           </span>
         </li>
       </ul>

@@ -36,8 +36,8 @@ const WARG = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]'/>
           <span>
-            Developed an algorithm capable of identifying <span className='text-[#3792c0] tracking-wide font-bold'>Triangular Arbitrage</span> opportunities
-            across both centralized and decentralized cryptocurrency exchanges
+            Developed an algorithm that identifies and records Triangular Arbitrage opportunities across both centralized
+            and decentralized cryptocurrency exchanges utilizing Jupyter Notebook, Python and Poloniex API
           </span>
         </li>
 
@@ -45,8 +45,7 @@ const WARG = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Researched profitable <span className='text-[#3792c0] tracking-wide font-bold'>Cross-Exchange Arbitrage</span> opportunities between <span className='text-[#3792c0] tracking-wide font-bold'>Poloniex</span> and <span className='text-[#3792c0] tracking-wide font-bold'>Binance</span> to
-            find over <span className='text-[#3792c0] tracking-wide font-bold'>25</span> daily trades that would be profitable
+            Researched Cross-Exchange Arbitrage opportunities between Binance & Poloniex to find 25+ profitable pairs of coins
           </span>
         </li>
 
@@ -54,7 +53,7 @@ const WARG = () => {
         <li className='text-base flex gap-2 text-gray-500'>
           <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
           <span>
-            Developed a daily changing graph to track the correlation between different coins on various exchanges to identify Arbitrage opportunities
+            Developed an SMA Crossover Strategy with an 89% buy/sell signal accuracy using Python, Pandas and Matplotlib
           </span>
         </li>
       </ul>
