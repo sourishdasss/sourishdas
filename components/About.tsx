@@ -11,20 +11,20 @@ export default function About({}: Props) {
 
       <div className='px-10 md:px-20 w-[900px] text-center mt-3'>
         <span className="text-gray-500 xl:text-left font-robotoRegular text-md md:text-lg">
-          Hello, my name is Sourish Das! I am a
+          Hello, I&apos;m Sourish Das, a
           <strong className="text-[#3792c0]"> Computer Science </strong>
           student at the 
           <strong className="text-[#3792c0]"> University of Waterloo </strong>
           planning to minor in
           <strong className="text-[#3792c0]"> Statistics. </strong>
           <br /><br />
-          I have a huge passion for Programming, Mathematics and Finance, and am interested in a wide variety of positions, from Machine Learning, Backend Engineering and Web Development to Quantitative Analysis.
+          I&apos;m very passionate about computer science, applied mathematics and finance, in various areas including Software Engineering, Data Science, Generative AI and Quantitative Finance.
           <br /><br />
-          For the summer of 2023, I&apos;m a Software Engineer at
+          For the summer of 2023, I was a Software Engineer at
           <strong className="text-[#3792c0]"> Baraka, </strong> 
           a Y Combinator backed fintech startup, based in Dubai, UAE.
           <br /><br />
-          During my free time you can find me hanging out with my friends, travelling, swimming laps or watching Netflix.
+          When I&apos;m not coding, you can find me swimming laps, playing soccer, exploring the world, or hanging out with friends.
           <br /><br />
           <span className="text-center mx-[210px]">Feel free to contact me to get in touch!</span>
         </span>
