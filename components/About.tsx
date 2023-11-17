@@ -15,8 +15,6 @@ export default function About({}: Props) {
           <strong className="text-[#3792c0]"> Computer Science </strong>
           student at the 
           <strong className="text-[#3792c0]"> University of Waterloo </strong>
-          planning to minor in
-          <strong className="text-[#3792c0]"> Statistics. </strong>
           <br /><br />
           I&apos;m very passionate about computer science, applied mathematics and finance, in various areas including Software Engineering, Data Science, Generative AI and Quantitative Finance.
           <br /><br />
