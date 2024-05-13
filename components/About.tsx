@@ -16,11 +16,7 @@ export default function About({}: Props) {
           student at the 
           <strong className="text-[#3792c0]"> University of Waterloo </strong>
           <br /><br />
-          I&apos;m very passionate about computer science, applied mathematics and finance, in various areas including Software Engineering, Data Science, Generative AI and Quantitative Finance.
-          <br /><br />
-          For the summer of 2023, I was a Software Engineer at
-          <strong className="text-[#3792c0]"> Baraka, </strong> 
-          a Y Combinator backed fintech startup, based in Dubai, UAE.
+          I&apos;m very passionate about computer science, statistics and finance, in various areas including Software Engineering, Data Science, Quantitative Finance and Deep Learning.
           <br /><br />
           When I&apos;m not coding, you can find me swimming laps, playing soccer, exploring the world, or hanging out with friends.
           <br /><br />
