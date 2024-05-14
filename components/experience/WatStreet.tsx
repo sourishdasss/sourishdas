@@ -35,7 +35,7 @@ const WatStreet = () => {
         <li className='text-base text-gray-500 max-w-[50rem]'>
           <span>
             As a Quantitative Developer with the UW Quantitative Finance 
-            Design Team since May 2023, I've contributed to improving trading 
+            Design Team since May 2023, I&apos;ve contributed to improving trading 
             strategy performance by developing a back-testing engine using 
             Python, NumPy, and Scikit-learn. Additionally, I researched 
             Cross-Exchange Arbitrage opportunities between Binance and Poloniex, 

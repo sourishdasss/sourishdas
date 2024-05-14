@@ -46,7 +46,7 @@ const Orbital = () => {
             September 2022 to May 2023, I played a key role in improving 
             system efficiency. I created an ARO Request page using React 
             and Firebase, resulting in a 40% reduction in server-side response 
-            times. Additionally, I refactored the satellite's user authentication 
+            times. Additionally, I refactored the satellite&apos;s user authentication 
             and data retrieval processes, reducing latency by 35% and enabling it 
             to handle over 500 requests per hour.
           </span>
