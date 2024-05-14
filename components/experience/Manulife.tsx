@@ -60,7 +60,7 @@ const Manulife = () => {
       <ul className='mt-8 flex flex-col gap-4'>
         <li className='text-base gap-2 text-gray-500 max-w-[50rem]'>
           <span>
-            During my internship with Manulife's Cloud Platform Team, 
+            During my internship with Manulife&apos;s Cloud Platform Team, 
             I spearheaded initiatives aimed at optimizing processes 
             and reducing operational costs. A standout contribution 
             was the development of a Python automation script utilizing 
