@@ -5,6 +5,7 @@ import BullForecast from './projects/BullForecast'
 import Invst from './projects/Invst';
 import RepMe from './projects/RepMe';
 import NetflixClone from './projects/NetflixClone';
+import Snowmail from './projects/Snowmail';
 
 
 const Projects = () => {
@@ -13,9 +14,10 @@ const Projects = () => {
       <h3 className='absolute top-24 uppercase tracking-[10px] text-gray-300 text-2xl mt-4'>Projects</h3>
 
       <div className="w-full flex space-x-5 overflow-x-auto p-10 mt-8">
+        <Snowmail />
         <BullForecast />
-        <Invst />
         <RepMe/>
+        <Invst />
         <NetflixClone/>
       </div>
     </div>

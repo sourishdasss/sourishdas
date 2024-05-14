@@ -45,7 +45,7 @@ export default function Hero({}: Props) {
         }}
         className="flex flex-row items-center">
           <SocialIcon 
-            url="https://github.com/sourishdas07" 
+            url="https://github.com/sourishdasss" 
             fgColor="gray" 
             bgColor="transparent"
           />
@@ -55,12 +55,12 @@ export default function Hero({}: Props) {
             bgColor="transparent"
           />
           <SocialIcon 
-            url="https://www.instagram.com/sourish.das07/" 
+            url="https://www.instagram.com/sourish.dasss/" 
             fgColor="gray" 
             bgColor="transparent"
           />
           <SocialIcon 
-            url="mailto:sourish10das@gmail.com" 
+            url="mailto:s4das@uwaterloo.ca" 
             fgColor="gray" 
             bgColor="transparent"
           />

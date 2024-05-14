@@ -16,14 +16,14 @@ export default function About({}: Props) {
           student at the 
           <strong className="text-[#3792c0]"> University of Waterloo </strong>
           <br /><br />
-          I&apos;m very passionate about computer science, statistics and finance, in various areas including Software Engineering, Data Science, Quantitative Finance and Deep Learning.
+          I&apos;m very passionate about computer science, statistics and finance, in various areas including <strong className="text-[#3792c0]"> Software Engineering </strong>, <strong className="text-[#3792c0]"> Data Science </strong>, <strong className="text-[#3792c0]"> Quantitative Finance </strong>, and <strong className="text-[#3792c0]"> Deep Learning </strong>.
           <br /><br />
           When I&apos;m not coding, you can find me swimming laps, playing soccer, exploring the world, or hanging out with friends.
           <br /><br />
           <span className="text-center mx-[210px]">Feel free to contact me to get in touch!</span>
         </span>
     
-        <a href="mailto:sourish10das@gmail.com">
+        <a href="mailto:s4das@uwaterloo.ca">
           <button className="mt-4 px-9 py-2 border border-[rgb(25,25,25)] rounded-full uppercase text-sm tracking-[8px] text-[#3792c0] transition-all hover:border-[#3792c0]/40 hover:text-[#3792c0]/80 blue-glow">
             <strong>Say Hello!</strong>
           </button>
