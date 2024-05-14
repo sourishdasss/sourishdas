@@ -2,15 +2,15 @@ import React from 'react'
 import {BsArrowReturnRight} from 'react-icons/bs';
 import {SiPandas, SiNumpy} from 'react-icons/si';
 
-const WARG = () => {
+const WatStreet = () => {
   return (
     <div className='w-full'>
       <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
         Quantitative Developer
-        <span className='text-[#3792c0] uppercase tracking-wide'>@ WatStreet</span>
+        <span className='text-[#3792c0] uppercase tracking-wide'>@ UW Quantitative Design Team</span>
       </h3>
 
-      <p className='text-base mt-3 uppercase font-medium text-[#3792c0] font-robotoRegular'>May 2023 - Present</p>
+      <p className='text-base mt-3 font-medium text-[#3792c0] font-robotoRegular'>May 2023 - Present</p>
 
       <div className='flex mt-8 space-x-6 my-2 font-robotoRegular'>
         <img 
@@ -32,28 +32,16 @@ const WARG = () => {
       </div>
 
       <ul className='mt-8 flex flex-col gap-4'>
-        {/* Point 1 */}
-        <li className='text-base flex gap-2 text-gray-500'>
-          <BsArrowReturnRight className='text-[#3792c0]'/>
+        <li className='text-base text-gray-500 max-w-[50rem]'>
           <span>
-            Developed an algorithm that identifies and records Triangular Arbitrage opportunities across both centralized
-            and decentralized cryptocurrency exchanges utilizing Jupyter Notebook, Python and Poloniex API
-          </span>
-        </li>
-
-        {/* Point 2 */}
-        <li className='text-base flex gap-2 text-gray-500'>
-          <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
-          <span>
-            Researched Cross-Exchange Arbitrage opportunities between Binance & Poloniex to find 25+ profitable pairs of coins
-          </span>
-        </li>
-
-        {/* Point 3 */}
-        <li className='text-base flex gap-2 text-gray-500'>
-          <BsArrowReturnRight className='text-[#3792c0]' style={{ fontSize: '1rem' }} />
-          <span>
-            Developed an SMA Crossover Strategy with an 89% buy/sell signal accuracy using Python, Pandas and Matplotlib
+            As a Quantitative Developer with the UW Quantitative Finance 
+            Design Team since May 2023, I've contributed to improving trading 
+            strategy performance by developing a back-testing engine using 
+            Python, NumPy, and Scikit-learn. Additionally, I researched 
+            Cross-Exchange Arbitrage opportunities between Binance and Poloniex, 
+            identifying over 25 profitable pairs of coins. Furthermore, I achieved 
+            an 89% buy/sell signal accuracy using a SMA Crossover Strategy with the 
+            help of Python, Pandas, and Matplotlib.
           </span>
         </li>
       </ul>
@@ -61,4 +49,4 @@ const WARG = () => {
   )
 }
 
-export default WARG
+export default WatStreet

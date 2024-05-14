@@ -6,10 +6,10 @@ const Orbital = () => {
     <div className='w-full'>
       <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
         Full Stack Developer 
-        <span className='text-[#3792c0] uppercase tracking-wide'>@ Orbital</span>
+        <span className='text-[#3792c0] uppercase tracking-wide'>@ UW Satellite Design Team</span>
       </h3>
 
-      <p className='text-base mt-3 uppercase font-medium text-[#3792c0] font-robotoRegular'>September 2022 - May 2023</p>
+      <p className='text-base mt-3 font-medium text-[#3792c0] font-robotoRegular'>September 2022 - May 2023</p>
 
       <div className='flex mt-8 space-x-6 my-2 font-robotoRegular'>
         <img 
@@ -40,27 +40,15 @@ const Orbital = () => {
       </div>
 
       <ul className='mt-8 flex flex-col gap-4'>
-        {/* Point 1 */}
-        <li className='text-base flex gap-2 text-gray-500'>
-          <BsArrowReturnRight className='text-[#3792c0]'/>
+        <li className='text-base text-gray-500 max-w-[50rem]'>
           <span>
-            Optimized satellite request handling by 20%, by creating a MySQL database managing 500+ records of telemetry data
-          </span>
-        </li>
-
-        {/* Point 2 */}
-        <li className='text-base flex gap-2 text-gray-500 font-robotoRegular'>
-          <BsArrowReturnRight className='text-[#3792c0]'/>
-          <span>
-            Created an ARO Request page with React & Firebase to reduce server-side incoming & outgoing response times by 40%
-          </span>
-        </li>
-
-        {/* Point 3 */}
-        <li className='text-base flex gap-2 text-gray-500'>
-          <BsArrowReturnRight className='text-[#3792c0]'/>
-          <span>
-            Refactored the satellite’s user authentication and data retrieval, to reduce latency by 35% and handle 500+ requests/hr
+            As a Software Developer with the UW Satellite Design Team from 
+            September 2022 to May 2023, I played a key role in improving 
+            system efficiency. I created an ARO Request page using React 
+            and Firebase, resulting in a 40% reduction in server-side response 
+            times. Additionally, I refactored the satellite's user authentication 
+            and data retrieval processes, reducing latency by 35% and enabling it 
+            to handle over 500 requests per hour.
           </span>
         </li>
       </ul>
