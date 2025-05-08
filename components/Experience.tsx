@@ -5,14 +5,25 @@ import Manulife from './experience/Manulife';
 import Baraka from './experience/Baraka';
 import Boosted from './experience/WatStreet';
 import Orbital from './experience/Orbital';
+import StackAdapt from "@/components/experience/StackAdapt";
 
 const WorkExperience = () => {
+  const [workStackAdapt, setworkStackAdapt] = useState(false);
   const [workBoosted, setWorkBoosted] = useState(true);
   const [workGivver, setWorkGivver] = useState(false);
   const [workManulife, setWorkManulife] = useState(false);
   const [workBaraka, setWorkBaraka] = useState(false);
 
+  const handleStackAdapt = () => {
+    setworkStackAdapt(true);
+    setWorkBoosted(false);
+    setWorkGivver(false);
+    setWorkManulife(false);
+    setWorkBaraka(false);
+  };
+
   const handleBoosted = () => {
+    setworkStackAdapt(false);
     setWorkBoosted(true);
     setWorkGivver(false);
     setWorkManulife(false);
@@ -20,6 +31,7 @@ const WorkExperience = () => {
   };
 
   const handleGivver = () => {
+    setworkStackAdapt(false);
     setWorkBoosted(false);
     setWorkGivver(true);
     setWorkManulife(false);
@@ -27,6 +39,7 @@ const WorkExperience = () => {
   };
 
   const handleManulife = () => {
+    setworkStackAdapt(false);
     setWorkBoosted(false);
     setWorkGivver(false);
     setWorkManulife(true);
@@ -34,6 +47,7 @@ const WorkExperience = () => {
   }
 
   const handleBaraka = () => {
+    setworkStackAdapt(false);
     setWorkBoosted(false);
     setWorkGivver(false);
     setWorkManulife(false);
@@ -46,6 +60,13 @@ const WorkExperience = () => {
 
       <div className='w-full flex flex-col md:flex-row gap-16 justify-center md:justify-start'>
         <ul className='md:w-40 flex flex-col ml-20'>
+          <li
+              onClick={handleStackAdapt}
+              style={{ fontSize: '1.1rem' }}
+              className={`border-l-2 ${workStackAdapt ? 'border-[#3792c0]' : 'border-[rgb(25,25,25)]'} text-gray-500 bg-transparent hover:bg-[#112240] py-3 px-8 text-sm cursor-pointer duration-300`}
+          >
+            StackAdapt
+          </li>
           <li
               onClick={handleBoosted}
               style={{ fontSize: '1.1rem' }}
@@ -75,6 +96,7 @@ const WorkExperience = () => {
             Baraka
           </li>
         </ul>
+        {workStackAdapt && <StackAdapt />}
         {workBoosted&& <Boosted />}
         {workGivver && <Orbital />}
         {workManulife && <Manulife />}
