@@ -2,15 +2,15 @@ import React from 'react'
 import {BsArrowReturnRight} from 'react-icons/bs';
 import {SiPandas, SiNumpy} from 'react-icons/si';
 
-const WatStreet = () => {
+const Boosted = () => {
   return (
     <div className='w-full'>
       <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
-        Quantitative Developer
-        <span className='text-[#3792c0] uppercase tracking-wide'>@ UW Quantitative Design Team</span>
+        Software Engineer Intern
+        <span className='text-[#3792c0] uppercase tracking-wide'>@ Boosted.ai</span>
       </h3>
 
-      <p className='text-base mt-3 font-medium text-[#3792c0] font-robotoRegular'>May 2023 - Present</p>
+      <p className='text-base mt-3 font-medium text-[#3792c0] font-robotoRegular'>January 2025 - April 2025</p>
 
       <div className='flex mt-8 space-x-6 my-2 font-robotoRegular'>
         <img 
@@ -49,4 +49,4 @@ const WatStreet = () => {
   )
 }
 
-export default WatStreet
+export default Boosted

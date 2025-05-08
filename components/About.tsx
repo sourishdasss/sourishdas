@@ -13,10 +13,13 @@ export default function About({}: Props) {
         <span className="text-gray-500 xl:text-left font-robotoRegular text-md md:text-lg">
           Hello, I&apos;m Sourish Das, a
           <strong className="text-[#3792c0]"> Computer Science </strong>
-          student at the 
-          <strong className="text-[#3792c0]"> University of Waterloo </strong>
+          student specializing in
+          <strong className="text-[#3792c0]"> Artificial Intelligence </strong>
+          at the
+          <strong className="text-[#3792c0]"> University of Waterloo</strong>.
           <br /><br />
-          I&apos;m very passionate about computer science, statistics and finance, in various areas including <strong className="text-[#3792c0]"> Software Engineering </strong>, <strong className="text-[#3792c0]"> Data Science </strong>, <strong className="text-[#3792c0]"> Quantitative Finance </strong>, and <strong className="text-[#3792c0]"> Deep Learning </strong>.
+          I&apos;m very passionate about computer science, machine learning and finance, in various areas including
+          <strong className="text-[#3792c0]"> Backend Development</strong>, <strong className="text-[#3792c0]"> Generative AI</strong>, <strong className="text-[#3792c0]"> Quantitative Finance</strong>, and <strong className="text-[#3792c0]">Infrastructure</strong>.
           <br /><br />
           When I&apos;m not coding, you can find me swimming laps, playing soccer, exploring the world, or hanging out with friends.
           <br /><br />

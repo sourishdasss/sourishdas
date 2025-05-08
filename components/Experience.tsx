@@ -3,55 +3,41 @@ import React, { useState } from 'react'
 // Experiences Displayed
 import Manulife from './experience/Manulife';
 import Baraka from './experience/Baraka';
-import WatStreet from './experience/WatStreet';
+import Boosted from './experience/WatStreet';
 import Orbital from './experience/Orbital';
 
-
 const WorkExperience = () => {
-  const [workManulife, setWorkManulife] = useState(true);
+  const [workBoosted, setWorkBoosted] = useState(true);
+  const [workGivver, setWorkGivver] = useState(false);
+  const [workManulife, setWorkManulife] = useState(false);
   const [workBaraka, setWorkBaraka] = useState(false);
-  const [workWatStreet, setWorkWatStreet] = useState(false);
-  const [workOrbital, setWorkOrbital] = useState(false);
-  const [workWARG, setWorkWARG] = useState(false);
+
+  const handleBoosted = () => {
+    setWorkBoosted(true);
+    setWorkGivver(false);
+    setWorkManulife(false);
+    setWorkBaraka(false);
+  };
+
+  const handleGivver = () => {
+    setWorkBoosted(false);
+    setWorkGivver(true);
+    setWorkManulife(false);
+    setWorkBaraka(false);
+  };
 
   const handleManulife = () => {
+    setWorkBoosted(false);
+    setWorkGivver(false);
     setWorkManulife(true);
     setWorkBaraka(false);
-    setWorkWatStreet(false);
-    setWorkOrbital(false);
-    setWorkWARG(false);
   }
 
   const handleBaraka = () => {
+    setWorkBoosted(false);
+    setWorkGivver(false);
     setWorkManulife(false);
     setWorkBaraka(true);
-    setWorkWatStreet(false);
-    setWorkOrbital(false);
-    setWorkWARG(false);
-  };
-
-  const handleWatStreet = () => {
-    setWorkManulife(false);
-    setWorkBaraka(false);
-    setWorkWatStreet(true);
-    setWorkOrbital(false);
-    setWorkWARG(false);
-  };
-
-  const handleOrbital = () => {
-    setWorkManulife(false);
-    setWorkBaraka(false);
-    setWorkWatStreet(false);
-    setWorkOrbital(true);
-    setWorkWARG(false);
-  };
-
-  const handleWARG = () => {
-    setWorkManulife(false);
-    setWorkBaraka(false);
-    setWorkWatStreet(false);
-    setWorkOrbital(false);
-    setWorkWARG(true);
   };
 
   return (
@@ -60,6 +46,20 @@ const WorkExperience = () => {
 
       <div className='w-full flex flex-col md:flex-row gap-16 justify-center md:justify-start'>
         <ul className='md:w-40 flex flex-col ml-20'>
+          <li
+              onClick={handleBoosted}
+              style={{ fontSize: '1.1rem' }}
+              className={`border-l-2 ${workBoosted ? 'border-[#3792c0]' : 'border-[rgb(25,25,25)]'} text-gray-500 bg-transparent hover:bg-[#112240] py-3 px-8 text-sm cursor-pointer duration-300`}
+          >
+            Boosted.ai
+          </li>
+          <li
+              onClick={handleGivver}
+              style={{ fontSize: '1.1rem' }}
+              className={`border-l-2 ${workGivver ? 'border-[#3792c0]' : 'border-[rgb(25,25,25)]'} text-gray-500 bg-transparent hover:bg-[#112240] py-3 px-8 text-sm cursor-pointer duration-300`}
+          >
+            Givver
+          </li>
           <li
             onClick={handleManulife}
             style={{ fontSize: '1.1rem' }}
@@ -74,25 +74,11 @@ const WorkExperience = () => {
           >
             Baraka
           </li>
-          <li
-            onClick={handleWatStreet}
-            style={{ fontSize: '1.1rem' }}
-            className={`border-l-2 ${workWatStreet ? 'border-[#3792c0]' : 'border-[rgb(25,25,25)]'} text-gray-500 bg-transparent hover:bg-[#112240] py-3 px-8 text-sm cursor-pointer duration-300`}
-          >
-            WatStreet
-          </li>
-          <li
-            onClick={handleOrbital}
-            style={{ fontSize: '1.1rem' }}
-            className={`border-l-2 ${workOrbital ? 'border-[#3792c0]' : 'border-[rgb(25,25,25)]'} text-gray-500 bg-transparent hover:bg-[#112240] py-3 px-8 text-sm cursor-pointer duration-300`}
-          >
-            Orbital
-          </li>
         </ul>
+        {workBoosted&& <Boosted />}
+        {workGivver && <Orbital />}
         {workManulife && <Manulife />}
         {workBaraka && <Baraka />}
-        {workWatStreet&& <WatStreet />}
-        {workOrbital && <Orbital />}
       </div>
     </div>
   );
