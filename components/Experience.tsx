@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 // Experiences Displayed
 import Manulife from './experience/Manulife';
 import Baraka from './experience/Baraka';
-import Boosted from './experience/WatStreet';
+import Boosted from './experience/Boosted';
 import Givver from './experience/Givver';
 import StackAdapt from "@/components/experience/StackAdapt";
 

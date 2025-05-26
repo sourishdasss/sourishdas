@@ -1,6 +1,4 @@
 import React from 'react'
-import {BsArrowReturnRight} from 'react-icons/bs';
-import {SiPandas, SiNumpy} from 'react-icons/si';
 
 const Boosted = () => {
   return (
