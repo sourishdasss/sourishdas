@@ -28,10 +28,10 @@ const Manulife = () => {
         />
 
         {/* Docker */}
-        <img 
-          className='h-8 w-10'
-          src='https://seeklogo.com/images/D/docker-logo-6D6F987702-seeklogo.com.png'
-          alt=''
+        <img
+            className='h-9 w-13'
+            src='https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo-2013.png'
+            alt=''
         />
 
         {/* PostgreSQL */}

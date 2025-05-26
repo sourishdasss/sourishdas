@@ -6,7 +6,7 @@ const StackAdapt = () => {
     <div className='w-full'>
       <h3 className='flex gap-1 font-medium text-gray-300 text-2xl tracking-wide font-robotoRegular'>
         Software Engineer Intern
-        <span className='text-[#3792c0] tracking-wide'>@ UW StackAdapt</span>
+        <span className='text-[#3792c0] tracking-wide'>@ StackAdapt</span>
       </h3>
 
       <p className='text-base mt-3 font-medium text-[#3792c0] font-robotoRegular'>May 2025 - Present</p>

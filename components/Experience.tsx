@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Manulife from './experience/Manulife';
 import Baraka from './experience/Baraka';
 import Boosted from './experience/WatStreet';
-import Orbital from './experience/Orbital';
+import Givver from './experience/Givver';
 import StackAdapt from "@/components/experience/StackAdapt";
 
 const WorkExperience = () => {
@@ -98,7 +98,7 @@ const WorkExperience = () => {
         </ul>
         {workStackAdapt && <StackAdapt />}
         {workBoosted&& <Boosted />}
-        {workGivver && <Orbital />}
+        {workGivver && <Givver />}
         {workManulife && <Manulife />}
         {workBaraka && <Baraka />}
       </div>
