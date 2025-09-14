@@ -40,7 +40,7 @@ function Snowmail({}: Props) {
 
           <div className="flex font-light text-center">
             <p className="font-div text-sm mt-4 mb-6 font-thin text-[#3792c0]">
-              TypeScript, NestJS, OpenAI API, Nodemailer, PostgreSQL, Next.js
+              Kotlin, Ktor, OpenAI API, JavaMail, PostgreSQL, Compose
             </p>
           </div>
         </div>
